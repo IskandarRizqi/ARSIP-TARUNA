@@ -54,14 +54,14 @@
                                 </div>
                             </div>
 
-                            <div class="mb-3">
+                            {{-- <div class="mb-3">
                                 <div class="g-recaptcha" data-sitekey="6LdBoRMrAAAAAK_KWWfpEieEu2TE7mbFiVxrgRs5"></div>
                                 @if ($errors->has('g-recaptcha-response'))
                                     <span class="invalid-feedback d-block">
                                         <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
                                     </span>
                                 @endif
-                            </div>
+                            </div> --}}
                             
                             <div class="d-flex mb-5 align-items-center">
                                 <label class="control control--checkbox mb-0">
